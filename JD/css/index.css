@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+/*sub-banner部分start*/
+.sub-banner {
+    position: relative;
+}
+.sub-banner a {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 625px;
+    width: 100%;
+    background: url("../images/subbanner.jpg") no-repeat top;
+}
+/*sub-banner部分end*/
+/*main部分start*/
+.mianView {
+    position:relative;
+}
+.main-slider {
+    position: relative;
+    margin:12px 0px 0px 220px;
+    float: left;
+    width: 730px;
+    height: 454px;
+}
+.main-slider ul {
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    margin-left: -62px;
+}
+.main-slider li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    font: 400 9px/20px "宋体";
+    background-color: #3E3E3E;
+    margin: 0px 2px;
+    border-radius:50%;
+}
+.arrow a {
+    position: absolute;
+    /*left: 0px;*/
+    bottom:50%;
+    height: 62px;
+    width: 30px;
+    background:rgba(0,0,0,0.4);
+    color: white;
+    text-align: center;
+    font:400 15px/62px "宋体";
+}
+.arrow .arrow-left {
+    left:0px;
+    border-radius: 0px 10px 10px 0px;
+}
+.arrow .arrow-left:hover {
+    background:rgba(0,0,0,0.7);;
+}
+.arrow .arrow-right {
+    right: 0px;
+    border-radius: 10px 0px 0px 10px;
+}
+.arrow .arrow-right:hover {
+    background:rgba(0,0,0,.7);/*小数的话可以不用写0*/
+}
+/*其实是通过类来控制那个小球球被选中的*/
+.main-slider .current {
+    background-color: #B61B1F;
+}
+.mainNews {
+    float: right;
+    margin-top: 12px;
+    height: 466px;/*防止页面百分比缩小之后带文字的盒子掉下来*/
+    width: 250px;
+}
+.mainNews .newsTop {
+    height: 372px;
+    width: 248px;
+    border: 1px solid #E4E4E4;
+    border-bottom: none;
+    margin-bottom: 5px;
+}
+.newsTop-faster-title {
+    height: 32px;
+    border-bottom: 1px dashed #E4E4E4;
+}
+.newsTop-faster-title h3 {
+    font: 400 18px/32px "microsoft yahei";
+    padding-left: 15px;
+    float: left;
+}
+.newsTop-faster-title a {
+    font: 400 14px/32px "consolas";
+    padding-right: 15px;
+    float: right;
+}
+.newsTop-faster-content {
+    height: 129px;
+    border-bottom: 1px dotted #E4E4E4;
+    margin:10px 0px 0px 8px;
+}
+.newsTop-faster-content ul li {
+    font: 400 15px/22px "宋体";
+}
+.newsTop-faster-content ul li span {
+    font:700 15px/22px "Microsoft yahei";
+    padding-right:1px ;
+}
+.mainNews {
+    overflow: hidden;
+}
+.mainNews-money ul {
+    width: 255px;
+}
+.mainNews-money ul li {
+    float: left;
+}
+.mainNews-money a {
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 24px;
+    border: 1px solid #E4E4E4;
+    border-top: none;
+    border-left: none;
+    padding-top: 42px;
+    text-align: center;
+}
+.mainNews-money i{
+    position: absolute;
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+    left: 20px;
+    top: 8px;
+    background: url("../images/money.png") no-repeat 0px 0px;
+}
+/*main部分end*/
+
+/*today部分start*/
+.today {
+    position: relative;
+    padding-bottom: 10px;
+}
+.today-left {
+    width: 210px; ;
+    height: 151px;
+    float: left;
+}
+.today-right {
+    float: left;
+    width: 1000px;
+    height: 151px;
+    overflow: hidden;
+    position: relative;
+    background-color: yellow;
+}
+.today-right ul {
+    width: 1500px;
+    height: 151px;
+}
+.today-right ul li{
+    float: left;
+    margin-right: 1px;
+}
+/*today部分end*/
